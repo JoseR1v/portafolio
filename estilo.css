@@ -155,7 +155,7 @@ html{
 .sobremi .fila .col h3{
     font-size: 2em;
     font-family: 'Righteous';
-    margin-bottom: 25px;
+    margin-bottom: 0.5em;
 }
 .sobremi .fila .col ul{
     list-style: none;
@@ -871,6 +871,10 @@ footer .arriba{
     }
     .curriculum .fila .derecha{
         margin-left: 0;
+    }
+
+    .datos-personales {
+        width: 100% !important;
     }
 
     .filaresp {

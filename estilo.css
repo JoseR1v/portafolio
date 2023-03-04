@@ -612,6 +612,10 @@ html{
 
 .p5 {
     grid-area: p5;
+    background-image: url(img/rayo-negro.png);
+    background-position: top center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .p6 {

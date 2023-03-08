@@ -69,10 +69,12 @@ html{
     padding: 20px;
     background-color: #1e2326;
     max-width: 350px;
-    margin: 2em auto auto auto;
+    margin: 20vh auto auto auto;
     text-align: center;
     border-radius: 40px;
 }
+
+
 
 .contenedor-img {
     background-image: url("img/Profile1.jpeg");
@@ -549,6 +551,10 @@ html{
     position: relative;
     bottom: 4px;
 }
+
+.deri {
+    margin-top: 8%;
+}
 /* SECCION PORTFOLIO */
 .portfolio{
     background-color: #252A2E;
@@ -572,8 +578,9 @@ html{
 
 .galeria {
     display: grid;
+    width: 70vw;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70% 70%;
+    grid-template-rows: 1fr 1fr;
     grid-template-areas: "p1 p2 p3" "p4 p5 p6";
     gap: 2em;
 }
@@ -640,23 +647,24 @@ html{
 }
 .portfolio .proyecto img{
     width: 100%;
-    height: 100%;
+    height: 50%;
     display: block;
 }
 .proyecto {
+    width: 100%;
     transition: 1.2s;
 }
 .portfolio .galeria .proyecto .overlay{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 70%;
+    height: 100%;
     text-align: center;
-    background: linear-gradient(#fff , lightblue 80%);
+    background: linear-gradient(#252A2E , #252A2E 80%);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    transition: 1s;
+    transition: 0.5s;
     font-size: 18px;
     letter-spacing: 3px;
     opacity: 0;
@@ -675,14 +683,14 @@ html{
 }
 .portfolio .galeria .proyecto .overlay:hover h3{
     margin-bottom: 0px;
-    color: #1e2326;
+    color: #fff;
 }
 .proyecto a {
     text-decoration: none;
-    color: #1e2326 !important;
+    color: #fff !important;
 }
 .overlay p {
-    color: #1e2326;
+    color: #fff;
 }
 /* SECCION CONTACTO */
 .contacto{
@@ -914,6 +922,7 @@ footer .arriba{
 
     .galeria {
         display: grid;
+        width: 95%;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6";

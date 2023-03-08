@@ -69,7 +69,7 @@ html{
     padding: 20px;
     background-color: #1e2326;
     max-width: 350px;
-    margin: auto;
+    margin: 2em auto auto auto;
     text-align: center;
     border-radius: 40px;
 }
@@ -173,10 +173,6 @@ html{
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
-}
-
-.back {
-    color: #1e2326;
 }
 
 .sobremi .fila {
@@ -346,7 +342,7 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .htmlcss{
@@ -373,7 +369,7 @@ html{
 }
 @keyframes react {
     0%{width: 0%;}
-    100%{width: 45%;}
+    100%{width: 75%;}
 }
 
 .skills .skill .angular{
@@ -382,7 +378,7 @@ html{
 }
 @keyframes angular {
     0%{width: 0%;}
-    100%{width: 25%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .ionic{
@@ -391,7 +387,7 @@ html{
 }
 @keyframes ionic {
     0%{width: 0%;}
-    100%{width: 45%;}
+    100%{width: 60%;}
 }
 
 .skills .skill .comunicacion{
@@ -445,7 +441,7 @@ html{
 }
 @keyframes resolucion {
     0%{width: 0%;}
-    100%{width: 65%;}
+    100%{width: 90%;}
 }
 /* SECCION CURRICULUM */
 .curriculum{
@@ -577,10 +573,9 @@ html{
 .galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 70% 70%;
     grid-template-areas: "p1 p2 p3" "p4 p5 p6";
     gap: 2em;
-    height: 70%;
 }
 
 .p1 {
@@ -655,9 +650,9 @@ html{
     position: absolute;
     top: 0;
     width: 100%;
-    height: 60%;
+    height: 70%;
     text-align: center;
-    background: linear-gradient(#fff , #1CB698 60%);
+    background: linear-gradient(#fff , lightblue 80%);
     display: flex;
     flex-direction: column;
     justify-content: center;

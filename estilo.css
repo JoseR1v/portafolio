@@ -335,6 +335,9 @@ html{
     right: -15px;
     font-size: 14px;
 }
+.progreso span {
+    color: #252A2E !important;
+}
 /* Estas clases se agregaran dinamicamente mediante javascript */
 .skills .skill .javascript{
     width: 0%;
@@ -581,40 +584,35 @@ html{
 .p1 {
     grid-area: p1;
     background-image: url(img/Mockup_soulfilms-01.png);
-    background-position: top left;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .p2 {
     grid-area: p2;
     background-image: url(img/Mockup_rosesland-01.png);
-    background-position: top center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .p3 {
     grid-area: p3;
     background-image: url(img/mockup_flowermarket-01.png);
-    background-position: top center;
-    background-size: cover;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 
 .p4 {
     grid-area: p4;
     background-image: url(img/Mockup_puriapp-01.png);
-    background-position: top center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
 .p5 {
     grid-area: p5;
     background-image: url(img/Mockup_rayonegro-01-01.png);
-    background-position: top center;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -666,8 +664,6 @@ html{
 .portfolio .galeria .proyecto .overlay h3{
     margin-bottom: 20px;
     transition: 1s;
-}
-a {
     text-decoration: none;
 }
 .portfolio .galeria .proyecto .overlay:hover{
@@ -835,7 +831,7 @@ footer .arriba{
     .filaresp {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
     }
 
     .contenedor-intereses {

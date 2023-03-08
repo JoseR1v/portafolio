@@ -620,6 +620,9 @@ html{
 
 .p6 {
     grid-area: p6;
+    background-image: url(img/Mockup_pagweb-01.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .interes {

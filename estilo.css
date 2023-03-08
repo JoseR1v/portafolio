@@ -580,7 +580,7 @@ html{
 
 .p1 {
     grid-area: p1;
-    background-image: url(img/p1.jpg);
+    background-image: url(img/Mockup_soulfilms-01.png);
     background-position: top left;
     background-size: cover;
     background-repeat: no-repeat;
@@ -588,7 +588,7 @@ html{
 
 .p2 {
     grid-area: p2;
-    background-image: url(img/p2.jpg);
+    background-image: url(img/Mockup_rosesland-01.png);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -596,7 +596,7 @@ html{
 
 .p3 {
     grid-area: p3;
-    background-image: url(img/p3.jpg);
+    background-image: url(img/mockup_flowermarket-01.png);
     background-position: top center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -604,7 +604,7 @@ html{
 
 .p4 {
     grid-area: p4;
-    background-image: url(img/p4.png);
+    background-image: url(img/Mockup_puriapp-01.png);
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -612,7 +612,7 @@ html{
 
 .p5 {
     grid-area: p5;
-    background-image: url(img/rayo-negro.png);
+    background-image: url(img/Mockup_rayonegro-01-01.png);
     background-position: top center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -666,6 +666,9 @@ html{
 .portfolio .galeria .proyecto .overlay h3{
     margin-bottom: 20px;
     transition: 1s;
+}
+a {
+    text-decoration: none;
 }
 .portfolio .galeria .proyecto .overlay:hover{
     opacity: 0.8;

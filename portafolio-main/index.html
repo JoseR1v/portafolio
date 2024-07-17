@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="img/desarrollador-de-software.ico">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">JOSÉ MANUEL</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PORTFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img"></div>
+            <h1>JOSÉ MANUEL</h1>
+            <h2>RIVERA SAN AGUSTÍN</h2>
+            <div class="cargo">
+                <h3>WEB DEVELOPER</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy José Manuel.</span> Soy un web developer apasionado por brindar al mundo nuevas tecnologías que faciliten procesos cotidianos, más de tres años de experiencia como desarrollador web y más de un año como desarrollador mobile, enfocado a nuevas tecnologías en el sector web que puedan ayudar a minimizar tiempos y costos a las empresas y en los proyectos, utilizando lenguajes de programación vanguardistas como Js, y sus diferentes presentaciones para la web y aplicaciones móviles.</p>
+
+            <div class="fila filaresp">
+                <!-- datos personales -->
+                <div class="col datos-personales">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Teléfono:</strong>
+                            55 2962 3821
+                        </li>
+                        <li>
+                            <strong>Email:</strong>
+                            joserivera.sa@outlook.com
+                        </li>
+                        <li>
+                            <strong>Ubicación:</strong>
+                            Ciudad de México
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes juegos">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>Videojuegos</span>
+                        </div>
+                        <div class="interes musica">
+                            <i class="fa-solid fa-chess"></i>
+                            <span>Chess</span>
+                        </div>
+                        <div class="interes viajes">
+                            <i class="fa-brands fa-react"></i>
+                            <span>React</span>
+                        </div>
+                        <div class="interes android">
+                            <i class="fa-brands fa-android"></i>
+                            <span>Android</span>
+                        </div>
+                        <div class="interes deporte">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>iOS</span>
+                        </div>
+                        <div class="interes ciencia">
+                            <i class="fa-solid fa-code"></i>
+                            <span>Coding</span>
+                        </div>
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+            <a target="_blank" href="download/CVJoséManuelRiveraSanAgustín.WebDeveloper.pdf" download="CV José Manuel Rivera San Agustín.pdf">
+                Descargar CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Typescript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React Native + Expo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Next JS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ionic</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>50%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Diseño</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Enfoque</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Resolución de problemas</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Responsive Web Design</h4>
+                        <span class="casa">freeCodeCamp.org</span>
+                        <span class="fecha">2021</span>
+                        <p> Aprendí los lenguajes que se utilizan para construir páginas web: HTML y HTML5 para el contenido, y CSS para el diseño.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>JavaScript Algorithms</h4>
+                        <span class="casa">freeCodeCamp.org</span>
+                        <span class="fecha">2021</span>
+                        <p> Este cursos me aprenderí conceptos fundamentales de programación en JavaScript: <br> - Basic JavaScript <br> - ES6 <br> - Basic Data Structures <br> - Basic Algorithm Scripting </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>TypeScript: Tu completa guía y manual de mano</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2022</span>
+                        <p> Este cursos me ayudó a tener una base sólida de TypeScript, así como saber utilizarlo para mejorar la manera de programar en la web: <br> - Funciones y Objetos <br> - Interfases <br> - Generics <br> - Uso de librerías </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Angular: De cero a experto</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2022</span>
+                        <p> Este cursos me ayudó a conocer Angular profundamernte, y a seguir estándares y buenas prácticas framework. Así mismo, aprindí otros temas relacionados en desarrollo de aplicaciones con Angular.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>  
+                    <div class="item izq">
+                        <h4>React: De cero a experto</h4>
+                        <span class="casa">Udemy</span>
+                        <span class="fecha">2022</span>
+                        <p> Este cursos me ayudó a conocer React profundamernte, y a seguir estándares y buenas prácticas framework. Así mismo, aprindí otros temas relacionados en desarrollo de aplicaciones con Angular.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Certificación SC-900 Fundamentos de Ciberseguridad</h4>
+                        <span class="casa">Microsoft</span>
+                        <span class="fecha">2021</span>
+                        <p>Esta certificación me proporcionó conocimientos de nivel básico sobre los conceptos de seguridad, cumplimiento e identidad y las soluciones de Microsoft relacionadas basadas en la nube.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Lic. en Matemáticas</h4>
+                        <span class="casa">Universidad Autónoma Metropolitana</span>
+                        <span class="fecha">2017 - 2022</span>
+                        <p>El objetivo en esta carrera es mejorar mis habilidades lógicas y ampliar mi conocimiento como desarrollador </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="deri">
+                        <div class="item der">
+                            <h4>Front End Developer</h4>
+                            <span class="casa">Wortev</span>
+                            <span class="fecha">Marzo 2023 - Actualidad</span>
+                            <p>Siendo front end developer he logrado mejorar mi habilidades con React y Typescript, así mismo emplear nuevas tecnologías como monorepositorios lo que ha permitido eficientar le tiempo para la creación de nuevas páginas web. De la misma forma en el ambiente móvil se ha trabjado con React Native y Expo, lo que ha permitido trabajar aplicaciones "nativas".</p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Web Developer</h4>
+                            <span class="casa">Digital Lab Agency</span>
+                            <span class="fecha">Noviembre 2021 - Enero 2023</span>
+                            <p>Como web developer estuve encargado de crear y dar soporte a páginas web, con diversas herramientas como WordPress.  </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <div class="item der">
+                            <h4>Web Developer</h4>
+                            <span class="casa">Freelance</span>
+                            <span class="fecha">Octubre 2020 – Noviembre 2021</span>
+                            <p>Durante esta etapa dediqué mi tiempo y mis habilidades en crear páginas web y apps móviles, e iniciar una carrera como desarrollador web. </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto p1">
+                    <a href="https://soulfilms.netlify.app/" target="_blank">
+                        <div class="overlay">
+                            <h3>Soul Films</h3>
+                            <p>Página Web</p>
+                            <div>
+                                <i class="fa-brands fa-html5"></i>
+                                <i class="fa-brands fa-css3-alt"></i>
+                                <i class="fa-brands fa-square-js"></i>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p2">
+                    <a href="https://roseslandusa.com/" target="_blank">
+                        <div class="overlay">
+                            <h3>ROSESLAND</h3>
+                            <p>Página Web</p>
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p3">
+                    <a href="https://icrg.mx/" target="_blank">
+                        <div class="overlay">
+                            <h3>ICRG</h3>
+                            <p>Página Web</p>
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p4">
+                    <a href="https://www.figma.com/file/9SmV5LiSKSox5v4CZLSGze/Purificadora-Pure-Water?t=ohBXqF3AfWhGl2Ji-1" target="_blank">
+                        <div class="overlay">
+                            <h3>Purificadora</h3>
+                            <p>App Android</p>
+                            <i class="fa-brands fa-angular"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p5">
+                    <a href="https://www.figma.com/file/hq88uGbxchFpYc0xC19925/Rayo-Negro?node-id=0-1&t=TwNl8Jx9VNA9vpJn-0" target="_blank">
+                        <div class="overlay">
+                            <h3>Rayo Negro</h3>
+                            <p>App Android</p>
+                            <i class="fa-brands fa-angular "></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p6">
+                    <a href="https://wortev.capital/" target="_blank">
+                        <div class="overlay">
+                            <h3>Wortev Capital</h3>
+                            <p>Página Web</p>
+                            <i class="fa-brands fa-wordpress"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p7">
+                    <a href="https://panel-mx.wortev.capital/" target="_blank">
+                        <div class="overlay">
+                            <h3>Wortev Capital</h3>
+                            <p>Panel</p>
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p8">
+                    <a href="https://admin-calcus.netlify.app/" target="_blank">
+                        <div class="overlay">
+                            <h3>Administrador de calculadoras</h3>
+                            <p>Panel Administrativo</p>
+                            <i class="fa-brands fa-react"></i>
+                        </div>
+                    </a>
+                </div>
+                <div class="proyecto p9">
+                    <a href="https://expo.dev/artifacts/eas/3aBb3MpFJ2rAcr9Y2DYG4d.apk" target="_blank">
+                        <div class="overlay">
+                            <h3>Wortev Capital</h3>
+                            <p>App Mobile</p>
+                            <i class="fa-brands fa-react"></i>
+                            <p>AL DAR CLICK DESCARGARAS EL APK</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Teléfono">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Asunto">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        <p>Enviar Mensaje</p><i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

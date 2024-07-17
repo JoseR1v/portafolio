@@ -344,6 +344,15 @@ html{
 }
 @keyframes javascript {
     0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .typescript{
+    width: 0%;
+    animation: 2s typescript forwards;
+}
+@keyframes typescript {
+    0%{width: 0%;}
     100%{width: 80%;}
 }
 
@@ -353,7 +362,7 @@ html{
 }
 @keyframes htmlcss {
     0%{width: 0%;}
-    100%{width: 90%;}
+    100%{width: 95%;}
 }
 
 .skills .skill .wordpress{
@@ -362,7 +371,7 @@ html{
 }
 @keyframes wordpress {
     0%{width: 0%;}
-    100%{width: 85%;}
+    100%{width: 90%;}
 }
 
 .skills .skill .react{
@@ -371,7 +380,25 @@ html{
 }
 @keyframes react {
     0%{width: 0%;}
-    100%{width: 75%;}
+    100%{width: 95%;}
+}
+
+.skills .skill .reactnative{
+    width: 0%;
+    animation: 2s reactnative forwards;
+}
+@keyframes reactnative {
+    0%{width: 0%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .nextjs{
+    width: 0%;
+    animation: 2s nextjs forwards;
+}
+@keyframes nextjs {
+    0%{width: 0%;}
+    100%{width: 80%;}
 }
 
 .skills .skill .angular{
@@ -380,7 +407,7 @@ html{
 }
 @keyframes angular {
     0%{width: 0%;}
-    100%{width: 50%;}
+    100%{width: 70%;}
 }
 
 .skills .skill .ionic{
@@ -389,7 +416,16 @@ html{
 }
 @keyframes ionic {
     0%{width: 0%;}
-    100%{width: 60%;}
+    100%{width: 90%;}
+}
+
+.skills .skill .python{
+    width: 0%;
+    animation: 2s python forwards;
+}
+@keyframes python {
+    0%{width: 0%;}
+    100%{width: 50%;}
 }
 
 .skills .skill .comunicacion{
@@ -580,8 +616,8 @@ html{
     display: grid;
     width: 70vw;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: "p1 p2 p3" "p4 p5 p6";
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: "p1 p2 p3" "p4 p5 p6" "p7 p8 p9";
     gap: 2em;
 }
 
@@ -622,7 +658,28 @@ html{
 
 .p6 {
     grid-area: p6;
-    background-image: url(img/Mockup_pagweb-01.png);
+    background-image: url(img/wortev-cap.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.p7 {
+    grid-area: p7;
+    background-image: url(img/panel-mx.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.p8 {
+    grid-area: p8;
+    background-image: url(img/admin-calcus.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.p9 {
+    grid-area: p9;
+    background-image: url(img/app-wc.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -691,6 +748,7 @@ html{
 }
 .overlay p {
     color: #fff;
+    margin-bottom: 10px;
 }
 /* SECCION CONTACTO */
 .contacto{
